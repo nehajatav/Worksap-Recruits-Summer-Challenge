@@ -1,0 +1,73 @@
+                                                                     
+                              8711881201                                       
+                                                                     
+                                             
+Summer vacation challenge:
+==========================================================
+
+Develop your own Java Web MVC framework(*).
+We suggest you to develop it step by step described below.
+
+Development environment:
+ - JDK6(Java6) (If you're familiar with Java, it is OK to JDK7)
+ - Tomcat7.0.29
+ - Derby (RDBMS which is a part of JDK6)
+
+
+step1:
+Study Java servlet programming.
+Write a simple servlet code.
+Understand how HTTP request and response work.
+
+
+step2:
+Study JSP.
+Understand how to forward requests from servlet code to JSP code.
+
+
+step3:
+Study URL mapping.
+Use a java.util.Map object which has keys of URL-paths and values of Servlet objects.
+
+
+step4:
+Study advanced URL mapping.
+Understand request processing of URL query parameters and HTML form values.
+
+
+step5:
+Study data access.
+Understand how to use DataSource and JDBC.
+Use Derby as RDBMS.
+
+
+step6:
+Create a mini blog like Twitter as a sample application.
+Application use case: 
+ Any users can type short messages in the form on Web browser. 
+ The messages are stored in RDBMS.
+ Any users can see the list of all messages, the contents and the created date.
+ Any users can delete any messages from Web browser.
+
+
+step7:
+Study how to separate between framework code and application code.
+
+If you think the portion of the code common to applications, let it put under framework.
+If you think the portion of the code specific to applications, let it put in application code.
+
+If you cannot understand how framework should work and how to separate framework code, refer to the tutorial of Play Framework version 1 (http://www.playframework.org/documentation/1.2.5/guide1).
+
+
+final step:
+Draw UML sequence diagram to explain your MVC architecture.
+Submit your code and diagram to us.
+Please use GitHub(https://github.com/) to submit them.
+
+
+footnotes:
+Web MVC framework:
+ If you are not familiar with MVC framework, refer to http://en.wikipedia.org/wiki/Web_application_framework.
+
+
+
